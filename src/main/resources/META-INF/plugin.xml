@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.example.helloworld</id>
+    <name>Example</name>
+    <vendor email="chumakzhenya@yahoo.com">
+        Eugene
+    </vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <actions>
+        <action
+            id="com.helloworld.actions.HelloWorldAction"
+            class="com.helloworld.actions.HelloWorldAction"
+            text="Say hello!">
+            <add-to-group group-id="EditorPopupMenu" />
+        </action>
+    </actions>
+</idea-plugin>
